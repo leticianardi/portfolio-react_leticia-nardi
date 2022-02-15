@@ -5,14 +5,22 @@
 
 .about-left {
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-right {
   flex: 1;
+  position: relative;
 }
 
 .a-left-wrapper {
   padding: 50px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .about-intro {
@@ -56,4 +64,28 @@
   100% {
     transform: translateY(-200px);
   }
+}
+
+.a-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+}
+
+.a-img-bg {
+  clip-path: polygon(100% 0%, 95% 55%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  background-color: #84f0a6;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.a-scroll {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 20px;
 }

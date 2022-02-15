@@ -1,0 +1,59 @@
+.about-section {
+  display: flex;
+  height: 100vh;
+}
+
+.about-left {
+  flex: 1;
+}
+
+.about-right {
+  flex: 1;
+}
+
+.a-left-wrapper {
+  padding: 50px;
+}
+
+.about-intro {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.about-name {
+  font-size: 60px;
+}
+
+.a-title {
+  height: 50px;
+  overflow: hidden;
+}
+
+.a-title-item {
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #eb508b;
+  display: flex;
+  align-items: center;
+}
+
+.a-titlle-wrapper {
+  height: 100%;
+  animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  75% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}

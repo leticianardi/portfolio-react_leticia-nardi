@@ -21,17 +21,17 @@ export const products = [
     link: "https://spicy-bites.herokuapp.com/",
   },
   {
+    id: 6,
+    img: Placeholder,
+    link: "https://leticianardi.github.io/javascript-codequiz/index.html",
+  },
+  {
     id: 4,
     img: Img4,
     link: "https://leticianardi.github.io/javascript-codequiz/index.html",
   },
   {
     id: 5,
-    img: Placeholder,
-    link: "https://leticianardi.github.io/javascript-codequiz/index.html",
-  },
-  {
-    id: 6,
     img: Placeholder,
     link: "https://leticianardi.github.io/javascript-codequiz/index.html",
   },

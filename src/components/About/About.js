@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-// import Me from "../../img/euzinha2.png";
+import Shape from "../../img/shape.jpeg";
 
 const about = () => {
   return (
@@ -11,10 +11,10 @@ const about = () => {
           <h1 className="about-name">I am Leticia</h1>
           <div className="a-title">
             <div className="a-titlle-wrapper">
-              <div className="a-title-item">Web Developer</div>
-              <div className="a-title-item">...</div>
-              <div className="a-title-item">UI/UX Designer</div>
-              <div className="a-title-item">...</div>
+              {/* <div className="a-title-item">...</div> */}
+              <div className="a-title-item">hello,</div>
+              <div className="a-title-item">world.</div>
+              <div className="a-title-item">hello,</div>
             </div>
           </div>
           <p className="a-description">I design and develop small projects.</p>
@@ -23,7 +23,7 @@ const about = () => {
 
       <div className="about-right">
         <div className="a-img-bg"></div>
-        {/* <img src={Me} alt="" className="a-img" /> */}
+        <img src={Shape} alt="" className="a-img" />
       </div>
     </div>
   );

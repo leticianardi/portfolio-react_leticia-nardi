@@ -108,8 +108,11 @@ function Contact() {
 
         <div className="c-right">
           <p className="c-description">
-            <b>What's your idea?</b> Tell me your ideas and what you want to
-            acomplish and we will find how to make it.
+            <b>What's your idea?</b>
+          </p>
+          <p className="c-description">
+            Tell me your ideas and what you want to acomplish and we will find
+            how to make it.
           </p>
 
           <form ref={formRef} onSubmit={handleSubmit}>

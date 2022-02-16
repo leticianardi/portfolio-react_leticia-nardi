@@ -28,7 +28,7 @@
 }
 
 .c-title {
-  font-size: 60px;
+  font-size: 3.5vw;
   width: 80%;
 }
 
@@ -37,6 +37,7 @@
   align-items: center;
   margin: 50px 60px;
   font-weight: 300;
+  font-size: 1.2vw;
   width: 70%;
 }
 
@@ -47,7 +48,9 @@
 }
 
 .c-description {
-  font-weight: 200;
+  font-weight: 300;
+  display: flex;
+  font-size: 1.2vw;
 }
 
 form {
@@ -60,14 +63,14 @@ input {
   border: none;
   border-bottom: 1px solid black;
   margin: 10px 0px;
-  font-size: 14px;
+  font-size: 1.2vw;
   padding-left: 10px;
 }
 
 textarea {
   width: 90%;
   margin: 10px 0px;
-  font-size: 14px;
+  font-size: 1.2vw;
   padding-left: 10px;
 }
 
@@ -94,7 +97,7 @@ a {
   }
 
   .c-title {
-    font-size: 30px;
+    font-size: 1.8vw;
   }
 
   .c-info-item {

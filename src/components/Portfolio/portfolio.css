@@ -2,14 +2,14 @@
   width: 30%;
   height: 40vh;
   margin: 20px 10px;
-  border: 2px solid #ECAF6A;
+  border: 2px solid #ecaf6a;
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
 }
 
 .p-browser {
   height: 15px;
-  background-color: #ECAF6A;
+  background-color: #ecaf6a;
   display: flex;
   align-items: center;
   position: sticky;
@@ -21,6 +21,13 @@
   height: 6px;
   border-radius: 50%;
   margin: 3px;
+  background-color: white;
+}
+
+.p-code {
+  height: 20px;
+  position: sticky;
+  z-index: 2;
   background-color: white;
 }
 

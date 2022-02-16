@@ -7,12 +7,17 @@ function PortfolioList() {
   return (
     <div className="portf-list">
       <div className="pl-texts">
-        <h1 className="pl-title">what has been done</h1>
+        <h1 className="pl-title">projects</h1>
         <p className="pl-description">Enim nisi aute ad id enim eu mollit.</p>
       </div>
       <div className="pl-list">
-      {products.map((item) => (
-          <Portfolio key={item.id} img={item.img} link={item.link} />
+        {products.map((item) => (
+          <Portfolio
+            key={item.id}
+            img={item.img}
+            link={item.link}
+            github={item.github}
+          />
         ))}
       </div>
     </div>

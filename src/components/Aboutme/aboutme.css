@@ -78,7 +78,7 @@
   }
 
   .a-card {
-    height: 30vh;
+    height: 40%;
   }
 
   .a-card.bg {
@@ -86,6 +86,6 @@
   }
 
   .a-right {
-    padding: 20px;
+    padding: 10px;
   }
 }

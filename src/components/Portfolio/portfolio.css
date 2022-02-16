@@ -39,3 +39,11 @@
 .p-img:hover {
   transform: translateY(-100%);
 }
+
+/* MEDIA QUERIES FOR RESPONSIVE LAYOUT */
+@media screen and (max-width: 480px) {
+  .p-item {
+    width: 90%;
+    height: 20vh;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./aboutme.css";
-import Turtle from "../../img/pexels-alex-azabache-3264721.jpg";
+import Turtle from "../../img/turtle.jpg";
 
 const Aboutme = () => {
   return (

@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio-react_leticia-nardi/static/css/main.cbb7413e.chunk.css",
-    "main.js": "/portfolio-react_leticia-nardi/static/js/main.fd31b5c4.chunk.js",
-    "main.js.map": "/portfolio-react_leticia-nardi/static/js/main.fd31b5c4.chunk.js.map",
+    "main.css": "/portfolio-react_leticia-nardi/static/css/main.20d702f8.chunk.css",
+    "main.js": "/portfolio-react_leticia-nardi/static/js/main.857a9b61.chunk.js",
+    "main.js.map": "/portfolio-react_leticia-nardi/static/js/main.857a9b61.chunk.js.map",
     "runtime-main.js": "/portfolio-react_leticia-nardi/static/js/runtime-main.2d6807ac.js",
     "runtime-main.js.map": "/portfolio-react_leticia-nardi/static/js/runtime-main.2d6807ac.js.map",
     "static/js/2.d661c194.chunk.js": "/portfolio-react_leticia-nardi/static/js/2.d661c194.chunk.js",
     "static/js/2.d661c194.chunk.js.map": "/portfolio-react_leticia-nardi/static/js/2.d661c194.chunk.js.map",
     "index.html": "/portfolio-react_leticia-nardi/index.html",
-    "static/css/main.cbb7413e.chunk.css.map": "/portfolio-react_leticia-nardi/static/css/main.cbb7413e.chunk.css.map",
+    "static/css/main.20d702f8.chunk.css.map": "/portfolio-react_leticia-nardi/static/css/main.20d702f8.chunk.css.map",
     "static/js/2.d661c194.chunk.js.LICENSE.txt": "/portfolio-react_leticia-nardi/static/js/2.d661c194.chunk.js.LICENSE.txt",
     "static/media/icon-email.3828a146.svg": "/portfolio-react_leticia-nardi/static/media/icon-email.3828a146.svg",
     "static/media/icon-github.d5db8398.svg": "/portfolio-react_leticia-nardi/static/media/icon-github.d5db8398.svg",
     "static/media/icon-linkedin.787aa301.svg": "/portfolio-react_leticia-nardi/static/media/icon-linkedin.787aa301.svg",
     "static/media/icon-phone.1a4c7f0a.svg": "/portfolio-react_leticia-nardi/static/media/icon-phone.1a4c7f0a.svg",
     "static/media/pexels-alex-azabache-3264721.a123d4f2.jpg": "/portfolio-react_leticia-nardi/static/media/pexels-alex-azabache-3264721.a123d4f2.jpg",
+    "static/media/shape.7823ec2a.jpeg": "/portfolio-react_leticia-nardi/static/media/shape.7823ec2a.jpeg",
     "static/media/work-placeholder.ef9483eb.jpg": "/portfolio-react_leticia-nardi/static/media/work-placeholder.ef9483eb.jpg",
     "static/media/work1.9c75fb44.png": "/portfolio-react_leticia-nardi/static/media/work1.9c75fb44.png",
     "static/media/work2.5e22cbe5.png": "/portfolio-react_leticia-nardi/static/media/work2.5e22cbe5.png",
@@ -24,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.2d6807ac.js",
     "static/js/2.d661c194.chunk.js",
-    "static/css/main.cbb7413e.chunk.css",
-    "static/js/main.fd31b5c4.chunk.js"
+    "static/css/main.20d702f8.chunk.css",
+    "static/js/main.857a9b61.chunk.js"
   ]
 }

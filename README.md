@@ -1,6 +1,7 @@
 # Portfolio
 
 My professional portfolio built with React.
+
 Check the deployed application on this [link](https://leticianardi.github.io/portfolio-react_leticia-nardi/).
 
 ## Installation

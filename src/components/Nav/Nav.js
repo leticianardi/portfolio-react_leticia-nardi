@@ -18,25 +18,29 @@ const Nav = (props) => {
       <div className="nav-right">
         <nav>
           <ul className="n-items">
-            <li className={currentCategory === "about"}>
-              <span onClick={() => setCurrentCategory("aboutme")}>
-                About Me
-              </span>
-            </li>
+            <span
+              className={currentCategory === "about"}
+              onClick={() => setCurrentCategory("aboutme")}
+            >
+              About Me
+            </span>
 
-            <li className={currentCategory === "portfoliolist"}>
-              <span onClick={() => setCurrentCategory("portfoliolist")}>
-                Portfolio
-              </span>
-            </li>
+            <span
+              className={currentCategory === "portfoliolist"}
+              onClick={() => setCurrentCategory("portfoliolist")}
+            >
+              Portfolio
+            </span>
 
-            <li className={currentCategory === "contact"}>
-              <span onClick={() => setCurrentCategory("contact")}>Contact</span>
-            </li>
+            <span
+              className={currentCategory === "contact"}
+              onClick={() => setCurrentCategory("contact")}
+            >
+              Contact
+            </span>
           </ul>
         </nav>
       </div>
-      
     </header>
   );
 };

@@ -17,14 +17,17 @@ const Aboutme = () => {
       </div>
 
       <div className="a-right">
-        <h1 className="a-title">About Me</h1>
-        <p className="a-sub">A little bit about me</p>
+        <h1 className="a-title">hi, visitor</h1>
+        <p className="a-quote">
+          “’Tis some visitor,” I muttered, “tapping at my chamber door— <br />
+          Only this and nothing more.”
+        </p>
+        <p className="a-qoute-author">Edgar Allan Poe</p>
         <p className="a-description">
-          Occaecat sit pariatur officia ex amet adipisicing. Qui esse laborum
-          aute sunt tempor tempor incididunt enim et. Tempor ipsum esse magna
-          reprehenderit culpa aliquip non excepteur. Culpa aliquip officia ad
-          occaecat esse nostrud sunt ut aliqua elit. Aute magna ea cillum
-          deserunt dolore fugiat ut deserunt labore adipisicing deserunt.
+          Hi! I'm Leticia, from Brazil. I've lived in San Francisco for over
+          three years now: came to learn English and never left! I enjoy the
+          beaches, of course, but miss the sunny days. You can always find me
+          watching the sunset.
         </p>
       </div>
     </div>

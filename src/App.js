@@ -5,6 +5,7 @@ import AboutMe from "./components/Aboutme/Aboutme";
 // import Portfolio from "./components/Portfolio/Portfolio";
 import PortfolioList from "./components/PortfolioList/PortfolioList";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   const [currentCategory, setCurrentCategory] = useState("about");
@@ -41,7 +42,9 @@ const App = () => {
       <div>
         <div>{displaySection()}</div>
       </div>
-      <div>{/* <Footer></Footer> */}</div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import "./contact.css";
 import Phone from "../../img/icon-phone.svg";
 import Email from "../../img/icon-email.svg";
 import Github from "../../img/icon-github.svg";
-// import { useRef } from "react";
+import Linkedin from "../../img/icon-linkedin.svg";
 import emailjs from "@emailjs/browser";
 import { validateEmail } from "../../utils/helpers";
 
@@ -85,8 +85,22 @@ function Contact() {
             </div>
             <div className="c-info-item">
               <img src={Github} alt="" className="c-icon"></img>
-              <a href="github.com/leticianardi" target="_blank">
+              <a
+                href="github.com/leticianardi"
+                target="_blank"
+                rel="noreferrer"
+              >
                 @leticianardi
+              </a>
+            </div>
+            <div className="c-info-item">
+              <img src={Linkedin} alt="" className="c-icon"></img>
+              <a
+                href="https://www.linkedin.com/in/leticianardi/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Leticia Nardi
               </a>
             </div>
           </div>

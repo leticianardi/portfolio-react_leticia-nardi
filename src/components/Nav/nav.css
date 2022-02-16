@@ -1,0 +1,21 @@
+.header {
+  height: 10vh;
+  margin: 10px 10px;
+}
+
+.nav-right {
+  flex: 1;
+}
+
+.nav-left {
+  flex: 1;
+}
+
+.n-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+span {
+ cursor: pointer;
+}

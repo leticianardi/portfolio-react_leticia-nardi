@@ -71,15 +71,23 @@ function Contact() {
           <div className="c-info">
             <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon"></img>
-              +1 415 747 5930
+              <a href="tel:+14157475930">+1 415 747 5930</a>
             </div>
             <div className="c-info-item">
               <img src={Email} alt="" className="c-icon"></img>
-              leticia.tnardi@gmail.com
+              <a
+                href="mailto:info@leticia.tnardi@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                leticia.tnardi@gmail.com
+              </a>
             </div>
             <div className="c-info-item">
               <img src={Github} alt="" className="c-icon"></img>
-              @leticianardi
+              <a href="github.com/leticianardi" target="_blank">
+                @leticianardi
+              </a>
             </div>
           </div>
         </div>

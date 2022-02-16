@@ -2,7 +2,7 @@
 
 My professional portfolio built with React.
 
-## Intallation
+## Installation
 
 Clone this repository and install all packages with the command `npm i` on your terminal.
 

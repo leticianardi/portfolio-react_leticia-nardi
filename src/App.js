@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Nav from "./components/Nav/Nav";
-import About from "./components/About/About";
+import Frontpage from "./components/Frontpage/Frontpage";
 import AboutMe from "./components/Aboutme/Aboutme";
 // import Portfolio from "./components/Portfolio/Portfolio";
 import PortfolioList from "./components/PortfolioList/PortfolioList";
@@ -13,7 +13,7 @@ const App = () => {
   const displaySection = () => {
     switch (currentCategory) {
       case "about":
-        return <About />;
+        return <Frontpage />;
       case "aboutme":
         return <AboutMe />;
       case "portfoliolist":
@@ -34,7 +34,7 @@ const App = () => {
         ></Nav>
       </div>
       <div>
-        {/* <About /> */}
+        {/* <Frontpage /> */}
         {/* <AboutMe />
         <PortfolioList />
         <Contact /> */}

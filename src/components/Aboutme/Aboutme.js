@@ -29,21 +29,28 @@ const Aboutme = () => {
           <div className="a-skills">
             <img src={Html} alt="HTML" className="a-skill-img" />
             <div className="skill-text">
-              <h4 className="a-skill-title">HTML</h4>
+              {/* <h4 className="a-skill-title">HTML</h4> */}
             </div>
           </div>
 
           <div className="a-skills">
             <img src={Css} alt="CSS" className="a-skill-img" />
             <div className="skill-text">
-              <h4 className="a-skill-title">CSS</h4>
+              {/* <h4 className="a-skill-title">CSS</h4> */}
             </div>
           </div>
 
           <div className="a-skills">
             <img src={Js} alt="JavaScript" className="a-skill-img" />
             <div className="skill-text">
-              <h4 className="a-skill-title">JavaScript</h4>
+              {/* <h4 className="a-skill-title">JavaScript</h4> */}
+            </div>
+          </div>
+
+          <div className="a-skills">
+            <img src={Node} alt="Node" className="a-skill-img" />
+            <div className="skill-text">
+              {/* <h4 className="a-skill-title">Node.JS</h4> */}
             </div>
           </div>
         </div>
@@ -52,31 +59,35 @@ const Aboutme = () => {
           <div className="a-skills">
             <img src={ReactLogo} alt="React" className="a-skill-img" />
             <div className="skill-text">
-              <h4 className="a-skill-title">React</h4>
+              {/* <h4 className="a-skill-title">React</h4> */}
             </div>
           </div>
           <div className="a-skills">
             <img src={Bootstrap} alt="Bootstrap" className="a-skill-img" />
             <div className="skill-text">
-              <h4 className="a-skill-title">Bootstrap</h4>
+              <div className="skill-text">
+                {/* <h4 className="a-skill-title">Bootstrap</h4> */}
+              </div>
+            </div>
+          </div>
+
+          <div className="a-skills">
+            <img src={MySql} alt="MySql" className="a-skill-img" />
+            <div className="skill-text">
+              {/* <h4 className="a-skill-title">MySql</h4> */}
+            </div>
+          </div>
+          <div className="a-skills">
+            <img src={Graphql} alt="GraphQl" className="a-skill-img" />
+            <div className="skill-text">
+              {/* <h4 className="a-skill-title">GraphQl</h4> */}
             </div>
           </div>
         </div>
 
-        <div className="skill-3">
-          <div className="a-skills">
-            <img src={MySql} alt="MySql" className="a-skill-img" />
-            <h4 className="a-skill-title">MySql</h4>
-          </div>
-          <div className="a-skills">
-            <img src={Graphql} alt="GraphQl" className="a-skill-img" />
-            <h4 className="a-skill-title">GraphQl</h4>
-          </div>
-          <div className="a-skills">
-            <img src={Node} alt="Node" className="a-skill-img" />
-            <h4 className="a-skill-title">Node.JS</h4>
-          </div>
-        </div>
+        {/* <div className="skill-3"> */}
+
+        {/* </div> */}
       </div>
 
       <div className="a-right">
@@ -91,6 +102,15 @@ const Aboutme = () => {
           three years now: came to learn English and never left! I enjoy the
           beaches, of course, but miss the sunny days. You can always find me
           watching the sunset.
+        </p>
+        <p className="a-description-link">
+          <a
+            href={require("../../img/Leticia-Nardi-resume.pdf")}
+            download
+          >
+            &#60; Download my resume clicking here &#62;
+          </a>
+          .
         </p>
       </div>
     </div>

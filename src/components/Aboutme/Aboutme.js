@@ -1,11 +1,19 @@
 import React from "react";
 import "./aboutme.css";
-import Turtle from "../../img/turtle.jpg";
+// import Turtle from "../../img/turtle.jpg";
+import Bootstrap from "../../img/skill-bootstrap.svg";
+import Css from "../../img/skill-css.svg";
+import Graphql from "../../img/skill-graphql.png";
+import Html from "../../img/skill-html.svg";
+import Js from "../../img/skill-js.png";
+import MySql from "../../img/skill-mysql.png";
+import Node from "../../img/skill-node.svg";
+import ReactLogo from "../../img/skill-react.svg";
 
 const Aboutme = () => {
   return (
     <div className="about">
-      <div className="a-left">
+      {/* <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
           <img
@@ -13,6 +21,61 @@ const Aboutme = () => {
             alt="Turtle swimming in the ocean"
             className="a-img"
           />
+        </div>
+      </div> */}
+
+      <div className="a-left">
+        <div className="skill-1">
+          <div className="a-skills">
+            <img src={Html} alt="HTML" className="a-skill-img" />
+            <div className="skill-text">
+              <h4 className="a-skill-title">HTML</h4>
+            </div>
+          </div>
+
+          <div className="a-skills">
+            <img src={Css} alt="CSS" className="a-skill-img" />
+            <div className="skill-text">
+              <h4 className="a-skill-title">CSS</h4>
+            </div>
+          </div>
+
+          <div className="a-skills">
+            <img src={Js} alt="JavaScript" className="a-skill-img" />
+            <div className="skill-text">
+              <h4 className="a-skill-title">JavaScript</h4>
+            </div>
+          </div>
+        </div>
+
+        <div className="skill-2">
+          <div className="a-skills">
+            <img src={ReactLogo} alt="React" className="a-skill-img" />
+            <div className="skill-text">
+              <h4 className="a-skill-title">React</h4>
+            </div>
+          </div>
+          <div className="a-skills">
+            <img src={Bootstrap} alt="Bootstrap" className="a-skill-img" />
+            <div className="skill-text">
+              <h4 className="a-skill-title">Bootstrap</h4>
+            </div>
+          </div>
+        </div>
+
+        <div className="skill-3">
+          <div className="a-skills">
+            <img src={MySql} alt="MySql" className="a-skill-img" />
+            <h4 className="a-skill-title">MySql</h4>
+          </div>
+          <div className="a-skills">
+            <img src={Graphql} alt="GraphQl" className="a-skill-img" />
+            <h4 className="a-skill-title">GraphQl</h4>
+          </div>
+          <div className="a-skills">
+            <img src={Node} alt="Node" className="a-skill-img" />
+            <h4 className="a-skill-title">Node.JS</h4>
+          </div>
         </div>
       </div>
 

@@ -7,12 +7,35 @@
 .a-left {
   flex: 1;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   position: relative;
-  height: 100%;
+  height: 75%;
 }
 
+.skill-1, .skill-2, .skill-3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.a-skills {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.a-skill-img {
+  width: 15vh;
+  height: 15vh;
+  border-radius: 20px;
+}
+.a-skill-title {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
 .a-right {
   flex: 1;
 }

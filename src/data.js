@@ -3,6 +3,7 @@ import Img1 from "./img/work1.png";
 import Img2 from "./img/work2.png";
 import Img3 from "./img/work3.png";
 import Img4 from "./img/work4.png";
+import Img5 from "./img/work5.png"
 
 export const products = [
   {
@@ -24,21 +25,21 @@ export const products = [
     github: "https://github.com/leticianardi/spicy-bites",
   },
   {
-    id: 6,
-    img: Placeholder,
-    link: "https://leticianardi.github.io/javascript-codequiz/index.html",
-    github: "https://github.com",
-  },
-  {
     id: 4,
     img: Img4,
     link: "https://leticianardi.github.io/javascript-codequiz/index.html",
     github: "https://github.com/leticianardi/javascript-codequiz",
   },
   {
-    id: 5,
+    id: 6,
     img: Placeholder,
-    link: "https://leticianardi.github.io/javascript-codequiz/index.html",
+    link: "https://github.com/leticianardi",
     github: "https://github.com",
+  },
+  {
+    id: 5,
+    img: Img5,
+    link: "https://leticianardi-wordlingo.herokuapp.com/",
+    github: "https://github.com/leticianardi/final--socialwordle",
   },
 ];

@@ -23,7 +23,7 @@ const Aboutme = () => {
           />
         </div>
       </div> */}
-
+{/* TODO: make it dynamic */}
       <div className="a-left">
         <div className="skill-1">
           <div className="a-skills">
@@ -104,10 +104,7 @@ const Aboutme = () => {
           watching the sunset.
         </p>
         <p className="a-description-link">
-          <a
-            href={require("../../img/Leticia-Nardi-resume.pdf")}
-            download
-          >
+          <a href={require("../../img/lnardi-resume.pdf")} download id="pdf">
             &#60; Download my resume clicking here &#62;
           </a>
           .

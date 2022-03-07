@@ -2,13 +2,14 @@ import React from "react";
 import "./portfolio.css";
 // import GithubIcon from "../../img/icon-github.svg";
 
-function Portfolio({ img, link, github }) {
+function Portfolio({ img, link, github, title }) {
   return (
-    <div className="p-item">
+    <div className="p-item grow">
       <div className="p-browser">
         <div className="p-circle"></div>
         <div className="p-circle"></div>
         <div className="p-circle"></div>
+        <div className="p-circle-title">{title}</div>
       </div>
 
       <div className="p-code">

@@ -17,6 +17,7 @@ function PortfolioList() {
             img={item.img}
             link={item.link}
             github={item.github}
+            title={item.title}
           />
         ))}
       </div>

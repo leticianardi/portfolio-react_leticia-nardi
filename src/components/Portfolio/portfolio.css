@@ -7,6 +7,8 @@
   overflow: hidden;
 }
 
+
+
 .p-browser {
   height: 15px;
   background-color: #ecaf6a;
@@ -22,6 +24,12 @@
   border-radius: 50%;
   margin: 3px;
   background-color: white;
+}
+
+.p-circle-title {
+  color: white;
+  font-style: bold;
+  margin-left: 5px;
 }
 
 .p-code {
